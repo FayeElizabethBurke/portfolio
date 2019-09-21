@@ -1,0 +1,104 @@
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+.containerOne {
+    padding: 50px;
+    padding-top: 100px;
+    text-align: center;
+    height: 90vh;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    margin: 2%;
+    background: url('/images/group.png');
+    background-size: cover;
+    box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 80px;
+}
+
+h2 {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 30px;
+}
+
+#logo {
+    margin-top: 5%;
+    width: 15%;
+}
+
+
+.partial {
+    margin: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    height: 275px;
+    display: none;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.glyphicon {
+    color: grey;
+    font-size: 40px;
+}
+
+#top {
+    overflow-x: scroll;
+    height: 500px;
+}
+
+#bottom {
+    height: 100%;
+    display: flex;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a .scrollObject {
+    margin: 10px;
+    min-width: 600px;
+    border: 0.5px solid lightgrey;
+    border-radius: 5px;
+    float: left;
+    height: 340px;
+    box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+#scrolly {
+    display: flex;
+    margin-top: 2%;
+    width: 500px;
+}
+
+a:hover {
+    background-color: #F2FA9F;
+    border-radius: 10px;
+}
+
+.description {
+    float: left;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    min-width: 45%;
+    display: flex;
+    margin-top: 3%;
+}
+
+li {
+    font-size: 20px;
+}
+
+p {
+    padding-top: 5%;
+    font-size: 20px;
+}
