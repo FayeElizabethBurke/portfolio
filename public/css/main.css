@@ -1,5 +1,9 @@
+html {
+    background: rgba(250, 159, 159, 0.26);
+}
 body {
     font-family: 'Muli', sans-serif;
+    
 }
 
 .containerOne {
@@ -13,6 +17,7 @@ body {
     background: url('/images/group.png');
     background-size: cover;
     box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
+    
 }
 
 h1 {
@@ -35,10 +40,25 @@ h2 {
     margin: 2%;
     padding-bottom: 2%;
     text-align: center;
-    height: 275px;
     display: none;
     border: 0.5px solid grey;
     border-radius: 10px;
+    box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
+    background: white;
+}
+
+.bio {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    height: 37vh;
+}
+
+#logoLinks {
+    padding-top: 80px;
+}
+.two {
+    height: 42vh;
 }
 
 button {
@@ -48,6 +68,23 @@ button {
 .glyphicon {
     color: grey;
     font-size: 40px;
+}
+.techSkills {
+    display: flex;
+    text-align: center;
+}
+
+.list {
+    display: inline;
+    padding: 40px;
+}
+.left {
+    float: left;
+    width: 50%;
+}
+.right {
+    float: right;
+    width: 50%;
 }
 
 #top {
@@ -99,6 +136,5 @@ li {
 }
 
 p {
-    padding-top: 5%;
     font-size: 20px;
 }
