@@ -69,10 +69,11 @@ a {
     padding-top: 8em;
     padding-bottom: 10em;;
     height: 35em;
+    background-color: white !important;
 }
 
 #logoLinks {
-    background-color: white;
+    background-color: white !important;
     padding-top: 2%;
 }
 
@@ -91,6 +92,7 @@ button {
 .techSkills {
     display: flex;
     text-align: center;
+    background-color: white !important;
 }
 
 .list {
