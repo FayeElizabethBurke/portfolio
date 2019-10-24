@@ -47,17 +47,28 @@ h2 {
     background: white;
 }
 
+#idModal{
+    display: none;  
+    }
+
+iframe {
+    border: 0px solid white;
+}
+
 .bio {
     padding-left: 150px;
     padding-right: 150px;
-    padding-top: 50px;
-    height: 37vh;
-    background: rgba(44, 63, 71, 0.5);
+    padding-top: 20px;
+    height: 15vh;
+    background: black;
+    color: white;
 }
 
 #logoLinks {
-    padding-top: 80px;
+    background: white;
+    padding-top: 2%;
 }
+
 .two {
     height: 42vh;
 }
