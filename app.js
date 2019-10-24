@@ -3,6 +3,7 @@ var express = require('express'),
     bodyParser = require("body-parser"),
     app = express();
 
+
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.urlencoded({ extended: false }));
@@ -15,9 +16,7 @@ app.get('/', (req, res) => {
 app.get("/details", (req, res) => {
   res.render('details');
 });
-
-app.listen(3000, () => {
-  console.log('server listening on port 3000');
-});
+var port = process.env.PORT || 3000;
+app.listen(port);
 
 module.exports = app;
