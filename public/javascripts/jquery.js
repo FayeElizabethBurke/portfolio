@@ -4,7 +4,7 @@ $(document).ready(function(){
         $(".containerOne").slideUp(300);
     });
 
-    $('#idToHoverOne').hover(function(){
+    $('#idToHoverOne').mouseover(function(){
         // $('#idModal').css("display", "block");
         $(this).replaceWith( ('<iframe src="/videos/planB.mp4" width=690px height=350px; allow="autoplay"></iframe>') );
       })
