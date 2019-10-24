@@ -1,9 +1,6 @@
-html {
-    background: rgba(250, 159, 159, 0.26);
-}
+
 body {
     font-family: 'Muli', sans-serif;
-    
 }
 
 .containerOne {
@@ -43,8 +40,7 @@ h2 {
     display: none;
     border: 0.5px solid grey;
     border-radius: 10px;
-    box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
-    background: white;
+    background-color: white !important;
 }
 
 #idModal{
@@ -55,17 +51,28 @@ iframe {
     border: 0px solid white;
 }
 
+#showPage {
+    background-color: rgba(145, 182, 242, 0.2) !important
+}
+html {
+    background-color: rgba(145, 182, 242, 0.2) !important;
+}
+
+a {
+    margin: 10px;
+    padding-top: 10px;
+}
+
 .bio {
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 20px;
-    height: 15vh;
-    background: black;
-    color: white;
+    padding-left: 20em;
+    padding-right: 20em;
+    padding-top: 8em;
+    padding-bottom: 10em;;
+    height: 35em;
 }
 
 #logoLinks {
-    background: white;
+    background-color: white;
     padding-top: 2%;
 }
 
@@ -101,7 +108,7 @@ button {
 
 #top {
     overflow-x: scroll;
-    height: 500px;
+    height: 550px;
 }
 
 #bottom {
@@ -148,5 +155,6 @@ li {
 }
 
 p {
-    font-size: 20px;
+    font-size: 2.5em;;
+    font-family: 'Montserrat', sans-serif;
 }

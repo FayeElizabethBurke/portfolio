@@ -6,25 +6,25 @@ $(document).ready(function(){
 
     $('#idToHoverOne').hover(function(){
         // $('#idModal').css("display", "block");
-        $(this).replaceWith( ('<iframe src="/videos/planB.mp4" width=750px height=380px; allow="autoplay"></iframe>') );
+        $(this).replaceWith( ('<iframe src="/videos/planB.mp4" width=690px height=350px; allow="autoplay"></iframe>') );
       })
 
       $('#idToHoverTwo').hover(function(){
         // $('#idModal').css("display", "block");
-        $(this).replaceWith( ('<iframe src="/videos/codeSnip.mp4" width=750px height=380px; allow="autoplay"></iframe>') );
+        $(this).replaceWith( ('<iframe src="/videos/codeSnip.mp4" width=750px height=350px; allow="autoplay"></iframe>') );
       })
 
-      $('#idToHoverTwo').hover(function(){
+      $('#idToHoverThree').hover(function(){
         // $('#idModal').css("display", "block");
-        $(this).replaceWith( ('<iframe src="/videos/codeSnip.mp4" width=750px height=380px; allow="autoplay"></iframe>') );
+        $(this).replaceWith( ('<iframe src="/videos/testcafe.mp4" width=750px height=350px; allow="autoplay"></iframe>') );
       })
 
-      $('#idToHoverTwo').hover(function(){
+      $('#idToHoverFour').hover(function(){
         // $('#idModal').css("display", "block");
         $(this).replaceWith( ('<h2>UNDER CONSTRUCTION</h2>') );
       })
       
-      $('#idToHover').mouseout(function(){
+      $('#idToHoverOne').mouseout(function(){
         $('iframe').hide();
       })
 
