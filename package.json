@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Faye Burke Dev Portfolio",
   "engines": {
-    "node": "10.x"
+    "node": "10.16.3"
   },
   "main": "app.js",
   "scripts": {
