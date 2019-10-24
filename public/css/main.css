@@ -67,10 +67,7 @@ a {
 }
 
 .bio {
-    padding-left: 20em;
-    padding-right: 20em;
-    padding-top: 8em;
-    padding-bottom: 10em;;
+    padding-top: 3.5%;
     height: 35em;
     background-color: white !important;
 }
@@ -138,7 +135,7 @@ a .scrollObject {
 #scrolly {
     display: flex;
     margin-top: 2%;
-    width: 500px;
+    width: 30%;
 }
 
 a:hover {
