@@ -92,7 +92,6 @@ button {
 .techSkills {
     display: flex;
     text-align: center;
-    background-color: white !important;
 }
 
 .list {
