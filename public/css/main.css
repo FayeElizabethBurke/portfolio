@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Muli', sans-serif;
+    background-color: rgba(145, 182, 242, 0.05);
 }
 
 .containerOne {
@@ -11,8 +12,9 @@ body {
     border: 0.5px solid grey;
     border-radius: 10px;
     margin: 2%;
-    background: url('/images/groupOne.png');
-    background-size: cover;
+    background: url('/images/groupOne.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
     box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
     
 }
@@ -93,6 +95,7 @@ button {
 .techSkills {
     display: flex;
     text-align: center;
+    background-color: white !important;
 }
 
 .list {
@@ -157,6 +160,6 @@ li {
 }
 
 p {
-    font-size: 2.5em;;
-    font-family: 'Varela Round', sans-serif;
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
 }
