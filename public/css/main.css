@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Baskervville', serif;
     background-color: rgba(145, 182, 242, 0.05);
 }
 
@@ -40,9 +40,8 @@ h2 {
     padding-bottom: 2%;
     text-align: center;
     display: none;
-
-    background-color: #B1BED7 !important;
-    border: 4px solid #A6B1C8;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 8.74%), linear-gradient(180deg, #FFFFFF 5.22%, rgba(255, 255, 255, 0) 100%), #B6BCC9;
+    border: 1px solid #A6B1C8;
     box-sizing: border-box;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
     border-radius: 25px;
@@ -69,8 +68,8 @@ a {
 }
 
 .bio {
-padding-top: 3%;
-    background-color: white !important;
+    padding-top: 3%;
+    background-color: rgba(255, 255, 255, 0.301) !important;
 }
 
 #logoLinks {
@@ -155,5 +154,4 @@ li {
 
 p {
     font-size: 2.5em;
-    font-family: 'Montserrat', sans-serif;
 }
