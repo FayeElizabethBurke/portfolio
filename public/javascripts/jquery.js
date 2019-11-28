@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $("#go").click(function(event){
-        $(".containerOne").slideUp(300);
+        $(".containerOne").slideUp(200);
     });
 
     $('#idToHoverOne').mouseover(function(){
@@ -29,10 +29,10 @@ $(document).ready(function(){
       })
 
     $("#go").click(function(event){
-        $(".partial").show(200);
+        $(".partial").show(150);
         $(".bio").hide();
         $(".techSkills").hide();
-        $(".bio").slideDown(800);
+        $(".bio").slideDown(500);
         $(".techSkills").slideDown(2000);
        
     });
