@@ -1,12 +1,14 @@
 
 var express = require('express'),
     bodyParser = require("body-parser"),
-    app = express();
+    app = express(),
+    compression = require('compression');
 
 
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.urlencoded({ extended: false }));
+app.use(compression());
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
