@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Baskervville', serif;
-    background-color: rgba(145, 182, 242, 0.05);
+ background: url('/images/texture.png');
 }
 
 .containerOne {
@@ -31,7 +31,7 @@ h2 {
 
 #logo {
     margin-top: 5%;
-    width: 15%;
+    height: 250px;
 }
 
 
@@ -40,7 +40,7 @@ h2 {
     padding-bottom: 2%;
     text-align: center;
     display: none;
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 8.74%), linear-gradient(180deg, #FFFFFF 5.22%, rgba(255, 255, 255, 0) 100%), #B6BCC9;
+    background: white;
     border: 1px solid #A6B1C8;
     box-sizing: border-box;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
@@ -55,12 +55,9 @@ iframe {
     border: 0px solid white;
 }
 
-#showPage {
-    background-color: rgba(145, 182, 242, 0.2) !important
-}
-html {
-    background-color: rgba(145, 182, 242, 0.2) !important;
-}
+/* #showPage {
+} */
+
 
 a {
     margin: 10px;
@@ -68,8 +65,7 @@ a {
 }
 
 .bio {
-    padding-top: 3%;
-    background-color: rgba(255, 255, 255, 0.301) !important;
+    padding-top: 2.8%;
 }
 
 #logoLinks {
