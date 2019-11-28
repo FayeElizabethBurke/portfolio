@@ -8,7 +8,7 @@ body{
     text-align:center;
     height:90vh;
     border:.5px solid grey;
-    border-radius:10px;
+    /* border-radius:10px; */
     margin:2%;
     background:url(/images/Group.png)!important;
     background-repeat:no-repeat;
@@ -34,10 +34,10 @@ h2{
     text-align:center;
     display:none;
     background:rgba(255,255,255,.95);
-    border:1px solid #a6b1c8;
+    border:2px solid #a6b1c8;
     box-sizing:border-box;
     box-shadow:5px 5px 4px rgba(0,0,0,.5);
-    border-radius:25px
+    /* border-radius:25px */
 }
 #idModal{
     display:none
