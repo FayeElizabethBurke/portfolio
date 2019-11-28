@@ -1,152 +1,112 @@
-
-body {
-    font-family: 'Baskervville', serif;
- background: url('/images/bg.png');
+body{
+    font-family:Baskervville,serif;
+    background:url(/images/bg.png)
 }
-
-.containerOne {
-    padding: 50px;
-    padding-top: 100px;
-    text-align: center;
-    height: 90vh;
-    border: 0.5px solid grey;
-    border-radius: 10px;
-    margin: 2%;
-    background: url('/images/Group.png') !important;
-    background-repeat: no-repeat;
-    background-size: cover !important;
-    box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
-    opacity: 0.95;
+.containerOne{
+    padding:50px;
+    padding-top:100px;
+    text-align:center;
+    height:90vh;
+    border:.5px solid grey;
+    border-radius:10px;
+    margin:2%;
+    background:url(/images/Group.png)!important;
+    background-repeat:no-repeat;
+    background-size:cover!important;
+    box-shadow:3px 6px 4px rgba(0,0,0,.25);
+    opacity:.95
 }
-
-h1 {
-    color: rgba(0, 0, 0, 0.75);
-    font-size: 80px;
+h1{
+    color:rgba(0,0,0,.75);
+    font-size:80px
 }
-
-h2 {
-    color: rgba(0, 0, 0, 0.75);
-    font-size: 30px;
+h2{
+    color:rgba(0,0,0,.75);
+    font-size:30px
 }
-
-#logo {
-    margin-top: 5%;
-    height: 250px;
+#logo{
+    margin-top:5%;
+    height:250px
 }
-
-
-.partial {
-    margin: 2%;
-    padding-bottom: 2%;
-    text-align: center;
-    display: none;
-    background: rgba(255, 255, 255, 0.95);
-    border: 1px solid #A6B1C8;
-    box-sizing: border-box;
-    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
-    border-radius: 25px;
+.partial{
+    margin:2%;
+    padding-bottom:2%;
+    text-align:center;
+    display:none;
+    background:rgba(255,255,255,.95);
+    border:1px solid #a6b1c8;
+    box-sizing:border-box;
+    box-shadow:5px 5px 4px rgba(0,0,0,.5);
+    border-radius:25px
 }
-
 #idModal{
-    display: none;  
-    }
-
-iframe {
-    border: 0px solid white;
+    display:none
 }
-
-/* #showPage {
-} */
-
-
-a {
-    margin: 10px;
-    padding-top: 10px;
+iframe{
+    border:0 solid #fff
 }
-
-.bio {
-    padding-top: 2.8%;
-    background: rgba(255, 255, 255);
+a{
+    margin:10px;
+    padding-top:10px
 }
-
-#logoLinks {
-    padding-top: 2%;
+.bio{
+    padding-top:2.8%;
+    background:rgba(255,255,255)
 }
-
-button {
-    margin-top: 20px;
+#logoLinks{
+    padding-top:2%
 }
-
-.glyphicon {
-    color: grey;
-    font-size: 40px;
+button{
+    margin-top:20px
 }
-.techSkills {
-    display: flex;
-    text-align: center;
+.glyphicon{
+    color:grey;
+    font-size:40px
+}.techSkills{
+    display:flex;
+    text-align:center
 }
-
-.list {
-    display: inline;
-    padding: 40px;
-}
-.left {
-    float: left;
-    width: 50%;
-}
-.right {
-    float: right;
-    width: 50%;
-}
-
-#top {
-    overflow-x: scroll;
-    height: 550px;
-}
-
-#bottom {
-    height: 100%;
-    display: flex;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-a .scrollObject {
-    margin: 10px;
-    min-width: 600px;
-    border: 0.5px solid lightgrey;
-    border-radius: 5px;
-    float: left;
-    height: 340px;
-    box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
-}
-
-#scrolly {
-    display: flex;
-    margin-top: 2%;
-    width: 30%;
-}
-
-a:hover {
-    background-color: #F2FA9F;
-    border-radius: 10px;
-}
-
-.description {
-    float: left;
-    margin-left: 1.5%;
-    margin-right: 1.5%;
-    min-width: 45%;
-    display: flex;
-    margin-top: 3%;
-}
-
-li {
-    font-size: 20px;
-}
-
-p {
-    font-size: 2.5em;
+.list{
+    display:inline;
+    padding:40px
+}.left{
+    float:left;
+    width:50%
+}.right{
+    float:right;
+    width:50%
+}#top{
+    overflow-x:scroll;
+    height:550px
+}#bottom{
+    height:100%;
+    display:flex
+}h3{
+    font-size:20px
+}a .scrollObject{
+    margin:10px;
+    min-width:600px;
+    border:.5px solid #d3d3d3;
+    border-radius:5px;
+    float:left;
+    height:340px;
+    box-shadow:3px 6px 4px rgba(0,0,0,.25)
+}#scrolly{
+    display:flex;
+    margin-top:2%;
+    width:30%
+}a:hover{
+    background-color:#f2fa9f;
+    border-radius:10px
+}.description{
+    float:left;
+    margin-left:1.5%;
+    margin-right:1.5%;
+    min-width:45%;
+    display:flex;
+    margin-top:3%
+}li{
+    font-size:20px
+}p{
+    font-size:2.5em
 }
