@@ -12,7 +12,7 @@ body {
     border: 0.5px solid grey;
     border-radius: 10px;
     margin: 2%;
-    background: url('/images/groupOne.jpg') !important;
+    background: url('/images/Group.png') !important;
     background-repeat: no-repeat;
     background-size: cover !important;
     box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
@@ -40,7 +40,7 @@ h2 {
     padding-bottom: 2%;
     text-align: center;
     display: none;
-    background: white;
+    background: rgba(255, 255, 255, 0.9);
     border: 1px solid #A6B1C8;
     box-sizing: border-box;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
@@ -66,10 +66,10 @@ a {
 
 .bio {
     padding-top: 2.8%;
+    background: rgba(255, 255, 255, 0.9);
 }
 
 #logoLinks {
-    background-color: white !important;
     padding-top: 2%;
 }
 
@@ -84,7 +84,6 @@ button {
 .techSkills {
     display: flex;
     text-align: center;
-    background-color: white !important;
 }
 
 .list {
